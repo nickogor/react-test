@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="49c341ca-9198-4c54-8df1-f0bb0a20a34d" name="codevery" url="http://codevery.com">
+        <fileTransfer host="codevery.com" port="2021" username="dev">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2021" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

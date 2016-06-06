@@ -45,6 +45,7 @@ var FullScreenButton = React.createClass({
     FullScreen: function () {
         if (this.state.fullScreen){
             this.setState({fullScreen: false});
+                var elem = document.documentElement;
                 if (elem.requestFullscreen) {
                     document.cancelFullScreen();
                 } else if (elem.mozRequestFullScreen) {
