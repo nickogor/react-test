@@ -1,0 +1,130 @@
+$header_height : 50px
+$blue: #5dabc6
+$green : #d5e739
+$disabled_icons: #656667
+body
+  margin: 0
+
+#menu
+  padding: 0 15px
+  background-color: #313233
+  .header
+    height: $header_height
+    line-height: $header_height
+    width: 100%
+    a.logo
+      float: left
+      height: 34px
+      padding: 8px 8px 15px 0
+      img
+        height: 34px
+    .search-block
+      float: left
+      height: 100%
+      padding-left: 5em
+      .search
+        padding: 0 10px
+        float: left
+        input
+          padding: 0 5px 0 10px
+          border: 0
+          outline: none
+          height: 22px
+    .right-menu
+      float: right
+
+
+.icon
+  position: relative
+  padding: 0 5px
+  font-size: 26px
+  cursor: pointer
+  line-height: $header_height
+  color: $disabled_icons
+  font-family: 'icomoon', sans-serif
+  speak: none
+  font-style: normal
+  font-weight: normal
+  font-variant: normal
+  text-transform: none
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  display: block
+  float: left
+  &:hover
+    color: $blue
+.icon-cross
+  &:before
+    content: "\e807"
+.icon-login
+  &:before
+    content: "\e800"
+.icon-chat
+  &:before
+    content: "\e801"
+.icon-download
+  &:before
+    content: "\e802"
+.icon-full-screen
+  &:before
+    content: "\e803"
+.icon-star
+  &:before
+    content: "\e804"
+.icon-question
+  &:before
+    content: "\e805"
+.icon-clock
+  &:before
+    content: "\e806"
+.icon-play
+  &:before
+    content: "\e808"
+.icon-important
+  &:before
+    content: "\e809"
+.icon-reload-1
+  &:before
+    content: "\e80a"
+.icon-resize
+  &:before
+    content: "\e80b"
+.icon-logout
+  &:before
+    content: "\e80c"
+.icon-d
+  &:before
+    content: "\e80d"
+.icon-tree
+  &:before
+    content: "\e80e"
+.icon-list
+  &:before
+    content: "\e80f"
+.icon-reload-2
+  &:before
+    content: "\e810"
+.icon-man
+  &:before
+    content: "\e811"
+.separator
+  float: left
+  width: 1px
+  background-color: #656667
+  height: 36px
+  margin: 7px 10px
+.tooltip
+  position: absolute
+  font-size: 13px
+  line-height: 1
+  right: 0
+  border: 1px solid
+  border-radius: 5px
+  padding: 10px
+  box-shadow: 0 3px 6px rgba(49, 50, 51,.24)
+  color: #313233
+.active
+  color: $blue
+.active-g
+  color: $green

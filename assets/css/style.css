@@ -1,0 +1,132 @@
+@charset "UTF-8";
+body {
+  margin: 0; }
+
+#menu {
+  padding: 0 15px;
+  background-color: #313233; }
+  #menu .header {
+    height: 50px;
+    line-height: 50px;
+    width: 100%; }
+    #menu .header a.logo {
+      float: left;
+      height: 34px;
+      padding: 8px 8px 15px 0; }
+      #menu .header a.logo img {
+        height: 34px; }
+    #menu .header .search-block {
+      float: left;
+      height: 100%;
+      padding-left: 5em; }
+      #menu .header .search-block .search {
+        padding: 0 10px;
+        float: left; }
+        #menu .header .search-block .search input {
+          padding: 0 5px 0 10px;
+          border: 0;
+          outline: none;
+          height: 22px; }
+    #menu .header .right-menu {
+      float: right; }
+
+.icon {
+  position: relative;
+  padding: 0 5px;
+  font-size: 26px;
+  cursor: pointer;
+  line-height: 50px;
+  color: #656667;
+  font-family: "icomoon", sans-serif;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+  float: left; }
+  .icon:hover {
+    color: #5dabc6; }
+
+.icon-cross:before {
+  content: ""; }
+
+.icon-login:before {
+  content: ""; }
+
+.icon-chat:before {
+  content: ""; }
+
+.icon-download:before {
+  content: ""; }
+
+.icon-full-screen:before {
+  content: ""; }
+
+.icon-star:before {
+  content: ""; }
+
+.icon-question:before {
+  content: ""; }
+
+.icon-clock:before {
+  content: ""; }
+
+.icon-play:before {
+  content: ""; }
+
+.icon-important:before {
+  content: ""; }
+
+.icon-reload-1:before {
+  content: ""; }
+
+.icon-resize:before {
+  content: ""; }
+
+.icon-logout:before {
+  content: ""; }
+
+.icon-d:before {
+  content: ""; }
+
+.icon-tree:before {
+  content: ""; }
+
+.icon-list:before {
+  content: ""; }
+
+.icon-reload-2:before {
+  content: ""; }
+
+.icon-man:before {
+  content: ""; }
+
+.separator {
+  float: left;
+  width: 1px;
+  background-color: #656667;
+  height: 36px;
+  margin: 7px 10px; }
+
+.tooltip {
+  position: absolute;
+  font-size: 13px;
+  line-height: 1;
+  right: 0;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(49, 50, 51, 0.24);
+  color: #313233; }
+
+.active {
+  color: #5dabc6; }
+
+.active-g {
+  color: #d5e739; }
+
+/*# sourceMappingURL=style.css.map */
